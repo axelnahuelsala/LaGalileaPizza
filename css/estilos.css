@@ -19,7 +19,7 @@ body{
 
 .section1{
     max-height: auto;
-    margin-bottom: 10rem;
+    /* margin-bottom: 9rem; */
 }
 
 #navbarNav{
@@ -54,6 +54,7 @@ body{
 }
 
 .section2{
+    margin-top: 1.5rem;
     color: white;
     text-align: center;
     align-items: center;
@@ -87,10 +88,11 @@ body{
     }
 
     .carousel-inner{
-        height: 95.5vh;
+        height: 95vh;
     }   
 
     .section2{
+        /* margin-top: 8rem; */
         margin-bottom: 4rem;
     }
 }
