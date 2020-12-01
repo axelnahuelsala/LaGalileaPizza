@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>La Galilea Pizza</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+      <!-- Letra Cursiva -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+      <!-- Iconos -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
 
-<body>
+  <body>
     <header>
+        <!-- Alerta -->
+        <div class="alert alert-success alert-dismissible fade show mb-0 fixed-bottom"
+        role="alert">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <h4 class="alert-heading">IMPORTANTE!!!</h4>
+          <p>¿Cómo hago mi pedido?</p>
+          <hr>
+          <p class="mb-0">Recorda que el pedido se hace vía Whatsapp.
+            <br>
+            Clickea en el logo de Whatsapp en la esquina inferior izquierda y envíanos un mensaje respetando el formato!
+          </p>
+        </div>
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-color">
             <a class="navbar-brand" href="#">La Galilea Pizza</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,19 +44,17 @@
                   </li>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Bebidas</a>
+                  <a class="nav-link" href="bebidas.html">Bebidas</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
                 </li>
-
               </ul>
             </div>
         </nav>
     </header>
 
-    <main>
-        <!-- <img src="imagenes/fondo.jpeg" alt=""> -->
+    <main>        
         <section class="section1">
             <!-- Carrusel -->
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -53,26 +69,25 @@
                     <img src="imagenes/pizza3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
             <!-- Cabecera -->
             <div class="cabecera">
-                <h1>Pedidos por whatsapp</h1>
-                <a href="https://wa.link/l87jvy"target="_blank" class="whatsapp"><button type="button" class="btn btn-dark">Clickeá y Pedi</button></a>
+                <!-- <h1>Pedidos por whatsapp</h1> -->
+                <h1>LA FUSIÓN DE DOS CULTURAS</h1>
+                <h2>La clásica receta italiana con los excesos que amamos los argentinos.</h2>
+                <!-- <a href="https://wa.link/l87jvy"target="_blank" class="whatsapp"><button type="button" class="btn btn-dark btn-lg">Clickeá y Pedi</button></a> -->
             </div>
         </section>
-        <section style="background-image: url('imagenes/fondo.jpeg')" class="section2">
-            <h2>LA FUSIÓN DE DOS CULTURAS</h2>
-            <h3>La clásica receta italiana con los excesos que amamos los argentinos.</h3>
+        <section id="section2-index" style="background-image: url('imagenes/fondo.jpeg')" class="section2">
+            <!-- <h2>LA FUSIÓN DE DOS CULTURAS</h2>
+            <h3>La clásica receta italiana con los excesos que amamos los argentinos.</h3> -->
+            <div> 
+              <label id="promos" class="tag"><i class="fa fa-tag"></i></label>
+              <h4 class="promo-h4">Promociones</h4>
+            </div>
+           
             <!-- Cartas de promo -->
-            <div class="container-xl" id="promos">
+            <div class="container-xl">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="card mb-5">
@@ -87,7 +102,7 @@
                       <div class="card mb-5">
                         <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-card-color">
-                            <h5 class="card-title text-white">Card title</h5>
+                            <h5 class="card-title text-white">Promo </h5>
                             <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
@@ -96,7 +111,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Promo </h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -105,7 +120,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Promo </h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -114,7 +129,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Promo </h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -123,7 +138,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Promo </h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -131,11 +146,33 @@
                 </div>                
             </div>
         </section>
+        <!-- Barra social media -->
+        <div class="icon-bar">
+          <a href="https://wa.link/l87jvy" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+          <a href="https://instagram.com/lagalileapizza?igshid=1dj5csa9oa61b" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
     </main>
+
+    <footer id="nosotros" style="background-image: url('imagenes/fondo.jpeg');">
+      <div class="left-box">
+        <h3>SOBRE NOSOTROS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos consequatur non minima deleniti neque ab blanditiis accusamus adipisci illum.</p>
+      </div>
+
+      <div class="right-box">
+        <h3>ZONAS DE ENTREGA</h3>
+        <ul>
+          <li>Mataderos</li>
+          <li>Caballito</li>
+          <li>Liniers</li>
+          <li>Villa Luro</li>
+        </ul>
+      </div>
+    </footer>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html> 
+  </body>
+</html>
