@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La Galilea Pizza</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Iconos 2 -->
+    <script src="https://kit.fontawesome.com/43e6d0e2d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
@@ -22,14 +26,14 @@
                     <li class="nav-item active">
                     <a class="nav-link" href="index.html">Promociones <span class="sr-only">(current)</span></a>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Nuestras Pizzas</a>
+                        <a class="nav-link" href="pizzas.html">Nuestras Pizzas</a>
                     </li>
                     </li>
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Bebidas</a>
+                    <a class="nav-link" href="bebidas.html">Bebidas</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
               </ul>
             </div>
@@ -39,6 +43,11 @@
     <main>
         <!-- <img src="imagenes/fondo.jpeg" alt=""> -->
         <section style="background-image: url('imagenes/fondo.jpeg')" class="section2">
+
+            <div> 
+                <label class="pizza"><i class="fas fa-pizza-slice"></i></label>
+                <h4 class="promo-h4">Nuestras Pizzas</h4>
+            </div>
             
             <!-- CARTAS DE PIZZA -->
             <div class="container-xl" id="promos">
@@ -47,7 +56,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza1.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white bg-transparent">Promo Duo</h5>
+                              <h5 class="card-title text-white bg-transparent">Pizza</h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
                           </div>
                         </div>
@@ -56,7 +65,7 @@
                       <div class="card mb-5">
                         <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-card-color">
-                            <h5 class="card-title text-white">Card title</h5>
+                            <h5 class="card-title text-white">Pizza</h5>
                             <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
@@ -65,7 +74,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Pizza</h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -74,7 +83,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Pizza</h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -83,7 +92,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Pizza</h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -92,7 +101,7 @@
                         <div class="card mb-5">
                           <img src="imagenes/pizza2.jpg" class="card-img-top" alt="...">
                           <div class="card-body bg-card-color">
-                              <h5 class="card-title text-white">Card title</h5>
+                              <h5 class="card-title text-white">Pizza</h5>
                               <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                         </div>
@@ -100,7 +109,30 @@
                 </div>                
             </div>
         </section>
+        <!-- Barra social media -->
+        <div class="icon-bar">
+            <a href="https://wa.link/l87jvy" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://instagram.com/lagalileapizza?igshid=1dj5csa9oa61b" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
     </main>
+
+    <footer id="nosotros"  style="background-image: url('imagenes/fondo.jpeg');">
+        <div class="left-box">
+          <h3>SOBRE NOSOTROS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos consequatur non minima deleniti neque ab blanditiis accusamus adipisci illum.</p>
+        </div>
+  
+        <div class="right-box">
+          <h3>ZONAS DE ENTREGA</h3>
+          <ul>
+            <li>Mataderos</li>
+            <li>Caballito</li>
+            <li>Liniers</li>
+            <li>Villa Luro</li>
+          </ul>
+        </div>
+    </footer>
+  
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
