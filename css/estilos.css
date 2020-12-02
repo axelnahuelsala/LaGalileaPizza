@@ -51,13 +51,13 @@ body{
 .cabecera h1{
     margin-top: 2rem;
     font-size: 10vw;
-    -webkit-text-stroke: 2px rgb(16, 109, 16);
+    -webkit-text-stroke: 2px black;
     font-family: 'Archivo Black', sans-serif;
 }
 
 .cabecera h2{
     font-size: 5vw;
-    -webkit-text-stroke: 2px rgb(160, 3, 3);
+    -webkit-text-stroke: .7px black;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -68,8 +68,11 @@ body{
     text-align: center;
     align-items: center;
     /* -webkit-text-stroke: .5px red; */
-    margin-top: -.7rem;
 }
+
+#section2-index{ 
+    margin-top: 2.4rem;
+} 
 
 .section2 h2{
     font-size: 6vw;
@@ -145,7 +148,7 @@ footer li{
     transition: all 0.3s ease;
     color: white;
     -webkit-text-stroke: 2px rgb(160, 3, 3);
-    font-size: 40px;
+    font-size: 60px;
     border-radius: 50%;
     margin: 1rem;
 }
@@ -192,7 +195,7 @@ footer li{
 
 @media screen and (max-width:410px){
     .section1{
-        margin-bottom: .8rem;
+        margin-bottom: -.8rem;
     }
 }
 
@@ -210,7 +213,7 @@ footer li{
 
 @media screen and (min-width:1024px) and (max-width:1279px){
     .section1{
-        margin-bottom: 3.7rem;
+        margin-bottom: 6.6rem;
     }  
 
     .cabecera h1{
@@ -222,15 +225,21 @@ footer li{
 
 @media screen and (min-width:1280px){
     .section1{
-        margin-bottom: 3.2rem;
+        
     }  
 
     .cabecera h1{
         margin-top: 4vh;
         font-size: 10vw;
-        -webkit-text-stroke: 5px rgb(16, 109, 16);
+        -webkit-text-stroke: 5px black;
     }
 
+    .cabecera h2{
+        margin-top: 4rem;
+        font-size: 4vw;
+        -webkit-text-stroke: 2px black;
+    }
+    
     .navbar a{
         font-size: 1.5rem;
     }
@@ -239,9 +248,14 @@ footer li{
         height: 95.5vh;
     }   
 
-    /* #section2-index{
-        margin-top: 12rem;
-    } */
+
+    .icon-bar a {
+        font-size: 40px;
+    }   
+
+    #section2-index{ 
+        margin-top: 8.6rem;
+    } 
 
     .promo-h4{
         padding: 0;
