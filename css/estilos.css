@@ -228,6 +228,10 @@ footer li{
         
     }  
 
+    #section2-index{ 
+        margin-top: 8.6rem;
+    } 
+
     .cabecera h1{
         margin-top: 4vh;
         font-size: 10vw;
@@ -252,10 +256,6 @@ footer li{
     .icon-bar a {
         font-size: 40px;
     }   
-
-    #section2-index{ 
-        margin-top: 8.6rem;
-    } 
 
     .promo-h4{
         padding: 0;
